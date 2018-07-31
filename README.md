@@ -7,3 +7,14 @@
 个人中心的实现、个人信息修改、收货地址等等
 未实现的功能：
 支付、第三方登录
+
+
+使用方法：
+git clone到你的项目目录中去，
+pip install -r requirements.txt等相关依赖包,
+安装vue.js,
+cnpm install Vue项目 然后cnpm run dev，
+django项目则python manage.py migrate生成对应数据库，
+使用db_tools下的两个python文件导入商品内容，
+然后python manage.py runserver，
+就可以去网页中查看相关的内容了。
